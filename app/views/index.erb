@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ruby Calculator</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Kirang+Haerang" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    </head>
+    <body>
+        <h1 id = "welcome">Welcome to the Ruby Calculator!</h1>
+        
+        <h2>What would you like to do?</h2>
+        
+        <p></p>
+        
+        <div id = "form">
+        <form action = "/results" method="post">
+        <select name="calc">
+        <option value = "simplify">Addition</option>
+        <option value = "simplify">Subtraction</option>
+        <option value = "simplify">Multiplication</option>
+        <option value = "simplify">Division</option>
+        <option value = "factor">Factor</option> 
+        <option value = "derive">Derive</option>
+        <option value = "integrate">Integrate</option>
+        <option value = "zeroes">Find 0's</option>
+        <option value = "tangent">Find Tangent</option>
+        <option value = "area">Area Under Curve</option>
+        <option value = "cos">Cosine</option>
+        <option value = "sin">Sine</option>
+        <option value = "tan">Tangent</option>
+        <option value = "arccos">Inverse Cosine</option>
+        <option value = "arcsin">Inverse Sine</option>
+        <option value = "arctan">Inverse Tangent</option>
+        <option value = "abs">Absolute Value</option>
+        <option value = "log">Logarithm</option>
+        </select>
+        
+        <h2>Type in Your Expression:</h2>
+        
+            <label for "nums"></label>
+            <input type = "Text" name ="nums">
+            <input type = "Submit">
+        </form>
+        </div>
+    
+     <h4>KEY:</h4>
+     <p>For addition use '+'</p>
+     <p>For subtraction use '-'</p>
+     <p>For multiplcation use '*'</p>
+     <p>For division use '(over)'</p>
+     <p>To find the tangent line of a function at a certain x value, send the request as c|f(x) where c is the given x value and f(x) is the function expression, the separator is a vertical bar '|'.</p>
+     <p>To find the area under a function, send the request as c:d|f(x) where c is the starting x value, d is the ending x value, and f(x) is the function under which you want the curve between the two x values.</p>
+     <p>To compute fractions, enter expressions as numerator(over)denominator.</p>
+     
+    </body>
+</html>
+
+
+

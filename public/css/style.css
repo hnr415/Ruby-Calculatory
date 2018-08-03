@@ -1,0 +1,71 @@
+#welcome {
+    color: #f4426e;
+    text-align: center;
+    font-family: 'Kirang Haerang', cursive;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    color: pink;
+    font-family: 'Kirang Haerang', cursive;
+    font-size: 25px;
+    
+}
+
+h4 {
+    text-align: left;
+    font-family: 'Kirang Haerang', cursive;
+    color: pink;
+    font-size: 30px;
+}
+
+
+p {
+    color: red;
+    text-align: center;
+}
+
+#form{
+    text-align: center;
+    font-family: 'Kirang Haerang', cursive;
+}
+
+input {
+    font-family: 'Kirang Haerang', cursive;
+    color: #f4426e;
+}
+
+#answer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    border: dotted;
+    padding: 0;
+    margin: 0;
+    border-color: pink;
+    background-color: white;
+    color: #f4426e; 
+    font-family: 'Kirang Haerang', cursive;
+    font-size: 75px;
+    text-transform: uppercase;
+}
+
+#home{
+    text-align: center;
+    text-transform: uppercase;
+    color: #f4426e;
+    
+}
+
+
+p {
+    text-align: left;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+
